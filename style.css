@@ -1,0 +1,74 @@
+body {
+  background: #1a4100;
+  background-image: url("http://i.imgur.com/NCztitu.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h2 {
+  color: #2b2b2b;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 25px 12%;
+}
+
+#quoteContainer {
+  background: rgba(255, 255, 255, .95);
+  display: block;
+  margin: 25px 5%;
+  padding: 30px;
+  color: #2b2b2b;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+#quotesource {
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.buttons {
+  font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  text-align: center;
+  margin: -50px;
+}
+
+#tweetBtn {
+  margin-right: -80%;
+  margin-bottom: -20px;
+}
+
+#tweetBearQuote {
+  background: 1px, -webkit-linear-gradient(#FEFEFE 0%, #DFDFDF 100%);
+  background: 1px, -moz-linear-gradient(#FEFEFE 0%, #DFDFDF 100%);
+  background: 1px, -o-linear-gradient(#FEFEFE 0%, #DFDFDF 100%);
+  background: 1px, linear-gradient(#FEFEFE 0%, #DFDFDF 100%);
+  border: 1px solid #cccccc;
+  font-weight: bold;
+  font-family: Arial;
+  color: #333;
+}
+
+#tweetBearQuote:hover {
+  background: 1px, -webkit-linear-gradient(#f7f7f7 0%, #d9d9d9 100%);
+  background: 1px, -moz-linear-gradient(#f7f7f7 0%, #d9d9d9 100%);
+  background: 1px, -o-linear-gradient(#f7f7f7 0%, #d9d9d9 100%);
+  background: 1px, linear-gradient(#f7f7f7 0%, #d9d9d9 100%);
+}
+
+.fa-twitter {
+  color: #4099ff;
+}
